@@ -1,0 +1,40 @@
+﻿<SiteMapNode>
+    <data-set>
+        <relations format-version="3" relations-version="20160101" main-table="SiteMap">
+            <link from="MUIScreen (NodeID)" to="SiteMap (NodeID)" />
+            <link from="MUIWorkspace (WorkspaceID)" to="MUIScreen (WorkspaceID)" type="FromMaster" linkname="workspaceToScreen" split-location="yes" updateable="True" />
+            <link from="MUISubcategory (SubcategoryID)" to="MUIScreen (SubcategoryID)" type="FromMaster" updateable="True" />
+            <link from="MUITile (ScreenID)" to="SiteMap (ScreenID)" />
+            <link from="MUIWorkspace (WorkspaceID)" to="MUITile (WorkspaceID)" type="FromMaster" linkname="workspaceToTile" split-location="yes" updateable="True" />
+            <link from="MUIArea (AreaID)" to="MUIWorkspace (AreaID)" type="FromMaster" updateable="True" />
+            <link from="MUIPinnedScreen (NodeID, WorkspaceID)" to="MUIScreen (NodeID, WorkspaceID)" type="WeakIfEmpty" isEmpty="Username" />
+            <link from="MUIFavoriteWorkspace (WorkspaceID)" to="MUIWorkspace (WorkspaceID)" type="WeakIfEmpty" isEmpty="Username" />
+        </relations>
+        <layout>
+            <table name="SiteMap">
+                <table name="MUIScreen" uplink="(NodeID) = (NodeID)">
+                    <table name="MUIPinnedScreen" uplink="(NodeID, WorkspaceID) = (NodeID, WorkspaceID)" />
+                </table>
+                <table name="MUITile" uplink="(ScreenID) = (ScreenID)" />
+            </table>
+            <table name="MUIWorkspace">
+                <table name="MUIFavoriteWorkspace" uplink="(WorkspaceID) = (WorkspaceID)" />
+            </table>
+            <table name="MUISubcategory" />
+            <table name="MUIArea" />
+        </layout>
+        <data>
+            <SiteMap>
+                <row Position="954" Title="Table Schema" Url="~/Pages/AT/AT102000.aspx" Expanded="0" IsFolder="0" ScreenID="AT102000" NodeID="ddb1b9d9-1d82-43bd-84bf-7f8fe4ad04cc" ParentID="04fcde76-08be-4233-b295-d7633bf0ea42">
+                    <MUIScreen IsPortal="0" WorkspaceID="3206e17e-8a34-4e3e-9648-5cee25defde5" Order="10" SubcategoryID="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa" />
+                </row>
+            </SiteMap>
+            <MUIWorkspace>
+                <row IsPortal="0" WorkspaceID="3206e17e-8a34-4e3e-9648-5cee25defde5" Order="784" Title="Configuration" Icon="settings" AreaID="3635ea7d-0975-48ff-b4ac-a870f7e1e8b5" ScreenID="WSCF0000" IsSystem="0" />
+            </MUIWorkspace>
+            <MUIArea>
+                <row IsPortal="0" AreaID="3635ea7d-0975-48ff-b4ac-a870f7e1e8b5" Order="30" Name="Configuration" />
+            </MUIArea>
+        </data>
+    </data-set>
+</SiteMapNode>
