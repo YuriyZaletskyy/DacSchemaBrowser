@@ -124,5 +124,38 @@ namespace TableSchemaReader
 		public List<TableSchemaFields> allFieldsNames = new List<TableSchemaFields>();
 
 		public List<string> notLoadedDlls = new List<string>();
+
+
+        [PXVirtualDAC]
+        public PXSelect<AllColumns> PanelTables;
+
+        public IEnumerable panelTables()
+        {
+			List<AllColumns> tablesList = new List<AllColumns>();
+
+            var curr = AcumaticaTablesFieldsView.Current;
+            if (curr == null) return tablesList;
+
+			var results = PXSelectReadonly<AllColumns,
+				Where<AllColumns.myColumn, Equal<Required<AllColumns.myColumn>>>>.Select(this, curr.Name);
+
+			return results;
+        }
+
+
+        public PXAction<TableSchemaFields> GetTables;
+        [PXButton(CommitChanges = true)]
+        [PXUIField(DisplayName = "Get Tables", MapEnableRights = PXCacheRights.Select, Enabled = false, Visible = true)]
+        public virtual IEnumerable getTables(PXAdapter adapter)
+        {
+
+            this.PanelTables.Cache.Clear();
+            this.PanelTables.Cache.ClearQueryCache();
+
+			WebDialogResult result = this.PanelTables.AskExt();
+
+            return adapter.Get();
+        }
+
 	}
 }

@@ -31,12 +31,200 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e" />
+    <Reference Include="PX.AddressValidator">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.AddressValidator.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.AddressValidator.AvalaraSoap">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.AddressValidator.AvalaraSoap.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.ContractBased">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Api.ContractBased.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.ContractBased.Common">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Api.ContractBased.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.Mobile">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Api.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.Mobile.Model">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Api.Mobile.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.OData">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Api.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.Shared">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Api.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.BootLoader">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.BootLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.BulkInsert">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.BulkInsert.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.BusinessProcess">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.BusinessProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CarrierService">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CarrierService.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CCProcessing">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CCProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CCProcessing.XmlSerializers">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CCProcessing.XmlSerializers.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CCProcessingBase">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CCProcessingBase.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CCProcessingService">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CCProcessingService.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CR.OutlookAddIn">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CR.OutlookAddIn.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CS.Contracts">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.CS.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Dashboards">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Dashboards.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Dashboards.Upgrade">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Dashboards.Upgrade.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Dashboards.Widgets">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Dashboards.Widgets.dll</HintPath>
+    </Reference>
     <Reference Include="PX.Data">
-      <HintPath>..\..\..\..\Program Files\Acumatica ERP\DacSchemaBrowser\Bin\PX.Data.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Data.BQL.Dynamic">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Data.BQL.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Data.BQL.Fluent">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Data.BQL.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DataSync">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.DataSync.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DataSync.Core">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.DataSync.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DataSync.HubSpot">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.DataSync.HubSpot.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DataSync.XmlSerializers">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.DataSync.XmlSerializers.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DbServices">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.DbServices.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Export">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.ExternalCarriersHelper">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.ExternalCarriersHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.FedExCarrier">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.FedExCarrier.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.GIROPaymentsExport">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.GIROPaymentsExport.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.LicensePolicy">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.LicensePolicy.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.ML">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.ML.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.ML.UI">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.ML.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.MySql">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.OAuthClient">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.OAuthClient.dll</HintPath>
     </Reference>
     <Reference Include="PX.Objects">
-      <HintPath>..\..\..\..\Program Files\Acumatica ERP\DacSchemaBrowser\Bin\PX.Objects.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Objects.FS">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Objects.FS.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Olap">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Olap.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Owin">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Owin.Interfaces">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Owin.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.PushNotifications">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.PushNotifications.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Reports">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Reports.ARm">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Reports.ARm.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Reports.Design">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Reports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Salesforce">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Salesforce.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Security">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.StampsCarrier">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.StampsCarrier.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.TaxProvider">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.TaxProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.TaxProvider.AvalaraSoap">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.TaxProvider.AvalaraSoap.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.UpsCarrier">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.UpsCarrier.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.UspsCarrier">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.UspsCarrier.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.Controls">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.Customization">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.Customization.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.Customization.MSILEdit">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.Customization.MSILEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.Objects">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.Site">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.Site.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.Site.Pure">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.Site.Pure.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.UI">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.UI.Design">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.UI.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.UI.Frameset">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.Web.UI.Frameset.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.WebConfig">
+      <HintPath>..\..\..\Program Files\Acumatica ERP 191000122\FindTablesByField\Bin\PX.WebConfig.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,11 +237,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcumaticaTables.cs" />
-    <Compile Include="AcumaticaTables2.cs" />
     <Compile Include="AcumaticaTablesMaint.cs" />
+    <Compile Include="DAC\AllColumns.cs" />
     <Compile Include="TableSchemaFields.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsrDacLicense.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
